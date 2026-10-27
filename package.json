@@ -1,0 +1,25 @@
+{
+  "name": "mailflow-lab",
+  "version": "0.1.0",
+  "description": "A sanitized, dry-run-only reference project for learning evidence-led AI agent development.",
+  "type": "module",
+  "author": "BrianV",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vothienthanh/mailflow-lab.git"
+  },
+  "homepage": "https://github.com/vothienthanh/mailflow-lab#readme",
+  "bugs": {
+    "url": "https://github.com/vothienthanh/mailflow-lab/issues"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node scripts/demo.mjs",
+    "validate": "node scripts/validate-project.mjs",
+    "check": "npm run validate && npm test && npm run demo"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "Apache-2.0"
+}

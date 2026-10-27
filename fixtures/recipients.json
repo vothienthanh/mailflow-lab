@@ -1,0 +1,22 @@
+[
+  {
+    "rowNumber": 2,
+    "name": "An Nguyen",
+    "email": "an@example.test"
+  },
+  {
+    "rowNumber": 3,
+    "name": "An Duplicate",
+    "email": " AN@EXAMPLE.TEST "
+  },
+  {
+    "rowNumber": 4,
+    "name": "Binh Tran",
+    "email": "binh@example.test"
+  },
+  {
+    "rowNumber": 5,
+    "name": "Invalid Recipient",
+    "email": "not-an-email"
+  }
+]
